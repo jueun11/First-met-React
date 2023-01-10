@@ -8,11 +8,14 @@ import reportWebVitals from './reportWebVitals';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ConfirmButtonClassFieldsSyntax';
+import ConfirmButtonClassFieldsSyntax from './chapter_08/ConfirmButtonClassFieldsSyntax';
+import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButtonFunction />
   </React.StrictMode>
 );
 
