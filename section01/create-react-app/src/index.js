@@ -11,11 +11,12 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButtonClassFieldsSyntax';
 import ConfirmButtonClassFieldsSyntax from './chapter_08/ConfirmButtonClassFieldsSyntax';
 import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButtonFunction />
+    <LandingPage />
   </React.StrictMode>
 );
 
